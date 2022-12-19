@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Clean Car",
+      "day": "Nov 23rd at 2:30PM",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Wash Towels",
+      "day": "Nov 24rd at 2:30PM",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Do Dishes",
+      "day": "Nov 25rd at 2:30PM",
+      "reminder": true
+    }
+  ]
+}
