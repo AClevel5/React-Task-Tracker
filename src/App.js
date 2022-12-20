@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import React from "react"
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 import Tasks from "./components/Tasks"
 import AddTask from "./components/AddTask"
 
@@ -75,6 +76,7 @@ function App() {
       <Header onAdd={() => setShowAddTask(!showAddTask)} showAdd={showAddTask} />
       {showAddTask && <AddTask onAdd={addTask} />}
       {tasks.length > 0 ? <Tasks tasks={tasks} onToggle={toggleReminder} onDelete={deleteTask} /> : 'No Tasks'}
+      <Footer />
     </div>
   );
 }
